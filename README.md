@@ -8,7 +8,6 @@ This repository contains HTML files demonstrating the effect of different CSS ap
 2. [Without Any Normalization](#without-any-normalization)
 3. [With a CSS Reset](#with-a-css-reset)
 4. [With normalize.css](#with-normalizecss)
-5. [Screenshots](#screenshots)
 
 ## Overview
 
@@ -26,7 +25,7 @@ In this approach, the webpage is styled entirely with the default browser styles
 - **Outcome**: Margins, padding, font sizes, and layout can look very different depending on the browser used.
 - **Example**: Headings might have different spacing in Chrome compared to Firefox. Lists might display with different bullet points or indentation.
 
-**Add a picture here showing the result of this approach.**
+![Screenshot from 2024-12-27 04-52-37](https://github.com/user-attachments/assets/d4e75d00-2f17-4ec9-b1dc-02684d9ca69a)
 
 ## With a CSS Reset
 
@@ -35,7 +34,7 @@ A **CSS Reset** is a technique that removes all default margins, padding, and ot
 - **Outcome**: All elements (headings, paragraphs, lists, etc.) will have no margin or padding, so developers will need to explicitly set them.
 - **Example**: After applying a CSS reset, you can control all the styles from scratch, but it may require extra work to redefine basic layouts, such as spacing between elements.
 
-**Add a picture here showing the result of the CSS reset approach.**
+![Screenshot from 2024-12-27 04-51-51](https://github.com/user-attachments/assets/7cb7c221-aeb7-46c0-8022-7cece598ed01)
 
 ## With normalize.css
 
@@ -46,20 +45,7 @@ A **CSS Reset** is a technique that removes all default margins, padding, and ot
 
 Normalize.css ensures that all elements are rendered with predictable styling while respecting the built-in styles that make sense (like form inputs and buttons). This is less intrusive than a full CSS reset and is often a better choice for modern web development.
 
-**Add a picture here showing the result of using normalize.css.**
-
-## Screenshots
-
-Below are screenshots of the webpage rendered using the different styling techniques. These images will help you understand the differences in how the page appears with different methods:
-
-- **Without Normalization**:  
-  ![Without Normalization](path_to_image_1.png)
-
-- **With CSS Reset**:  
-  ![With CSS Reset](path_to_image_2.png)
-
-- **With normalize.css**:  
-  ![With normalize.css](path_to_image_3.png)
+![Screenshot from 2024-12-27 04-52-28](https://github.com/user-attachments/assets/b0071ccb-ccfd-49bf-96e6-517e177d8c1b)
 
 ## Summary
 
